@@ -126,7 +126,7 @@ xlabel('Microchip Test 1')
 ylabel('Microchip Test 2')
 
 legend('y = 1', 'y = 0', 'Decision boundary')
-hold off;asdfa
+hold off;
 
 % Compute accuracy on our training set
 p = predict(theta, X);
